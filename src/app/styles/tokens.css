@@ -1,0 +1,135 @@
+:root,
+:root[data-theme='light'] {
+  --c-page: #f1f5f9;
+  --c-bg: #ffffff;
+  --c-bg-elev: #ffffff;
+  --c-bg-chip: rgba(0, 0, 0, 0.04);
+  --c-elev-1: rgba(0, 0, 0, 0.06);
+  --c-elev-2: #ffffff;
+  --c-line: #e2e8f0;
+  --c-line-soft: rgba(0, 0, 0, 0.14);
+  --c-line-strong: rgba(0, 0, 0, 0.14);
+  --c-text: #0f172a;
+  --c-text-muted: rgba(0, 0, 0, 0.64);
+  --c-text-faint: rgba(0, 0, 0, 0.4);
+  --c-accent: #007aff;
+  --c-accent-text: #ffffff;
+  --c-now: #f97316;
+
+  --c-order-rim: #4ac99b;
+  --c-order-fill: rgba(74, 201, 155, 0.16);
+  --c-order-badge-bg: rgba(15, 23, 42, 0.08);
+  --c-order-badge-text: #0f172a;
+  --c-order-bill-rim: #4ac99b;
+  --c-order-bill-fill: rgba(74, 201, 155, 0.16);
+  --c-order-bill-badge-bg: rgba(74, 201, 155, 0.32);
+  --c-order-bill-badge-text: #0f172a;
+  --c-order-closed-rim: #7fd7cc;
+  --c-order-closed-fill: rgba(127, 215, 204, 0.16);
+  --c-order-closed-badge-bg: rgba(15, 23, 42, 0.06);
+  --c-order-closed-badge-text: rgba(15, 23, 42, 0.6);
+  --c-banquet-rim: #b348f7;
+  --c-banquet-fill: rgba(179, 72, 247, 0.16);
+  --c-banquet-badge-bg: rgba(139, 92, 246, 0.24);
+  --c-banquet-badge-text: #0f172a;
+
+  --c-res-queue-rim: #0097fd;
+  --c-res-queue-fill: rgba(0, 151, 253, 0.16);
+  --c-res-queue-badge-bg: #0097fd;
+  --c-res-queue-badge-text: #ffffff;
+
+  --c-res-new-rim: #ff7043;
+  --c-res-new-fill: rgba(255, 112, 67, 0.16);
+  --c-res-new-badge-bg: #007aff;
+  --c-res-new-badge-text: #ffffff;
+
+  --c-res-app-rim: #ff7043;
+  --c-res-app-fill: rgba(255, 112, 67, 0.16);
+  --c-res-app-badge-bg: rgba(0, 151, 253, 0.12);
+  --c-res-app-badge-text: #0097fd;
+
+  --c-res-open-rim: #9a3412;
+  --c-res-open-fill: rgba(154, 52, 18, 0.18);
+  --c-res-open-badge-bg: #9a3412;
+  --c-res-open-badge-text: #ffffff;
+
+  --c-res-closed-rim: #78350f;
+  --c-res-closed-fill: rgba(120, 53, 15, 0.12);
+  --c-res-closed-badge-bg: rgba(120, 53, 15, 0.4);
+  --c-res-closed-badge-text: #ffffff;
+
+  --c-res-unknown-rim: #94a3b8;
+  --c-res-unknown-fill: rgba(148, 163, 184, 0.14);
+  --c-res-unknown-badge-bg: #64748b;
+  --c-res-unknown-badge-text: #ffffff;
+
+  --c-card-base: rgba(15, 23, 42, 0.04);
+}
+
+:root[data-theme='dark'] {
+  --c-page: #0a0d14;
+  --c-bg: #11141c;
+  --c-bg-elev: #161a23;
+  --c-bg-chip: rgba(255, 255, 255, 0.04);
+  --c-elev-1: rgba(255, 255, 255, 0.08);
+  --c-elev-2: #1b1b1d;
+  --c-line: #232936;
+  --c-line-soft: rgba(255, 255, 255, 0.16);
+  --c-line-strong: rgba(255, 255, 255, 0.16);
+  --c-text: #ffffff;
+  --c-text-muted: rgba(255, 255, 255, 0.64);
+  --c-text-faint: rgba(255, 255, 255, 0.4);
+  --c-accent: #007aff;
+  --c-accent-text: #ffffff;
+  --c-now: #f97316;
+
+  /* Figma: каждая карточка = solid rim + bg того же цвета на 16%. */
+  --c-order-rim: #4ac99b;
+  --c-order-fill: rgba(74, 201, 155, 0.16);
+  --c-order-badge-bg: rgba(255, 255, 255, 0.12);
+  --c-order-badge-text: #ffffff;
+  --c-order-bill-rim: #4ac99b;
+  --c-order-bill-fill: rgba(74, 201, 155, 0.16);
+  --c-order-bill-badge-bg: rgba(74, 201, 155, 0.32);
+  --c-order-bill-badge-text: #ffffff;
+  --c-order-closed-rim: #7fd7cc;
+  --c-order-closed-fill: rgba(127, 215, 204, 0.16);
+  --c-order-closed-badge-bg: rgba(255, 255, 255, 0.06);
+  --c-order-closed-badge-text: rgba(255, 255, 255, 0.64);
+  --c-banquet-rim: #b348f7;
+  --c-banquet-fill: rgba(179, 72, 247, 0.16);
+  --c-banquet-badge-bg: rgba(179, 72, 247, 0.32);
+  --c-banquet-badge-text: #ffffff;
+
+  --c-res-queue-rim: #0097fd;
+  --c-res-queue-fill: rgba(0, 151, 253, 0.16);
+  --c-res-queue-badge-bg: #0097fd;
+  --c-res-queue-badge-text: #ffffff;
+
+  --c-res-new-rim: #ff7043;
+  --c-res-new-fill: rgba(255, 112, 67, 0.16);
+  --c-res-new-badge-bg: #007aff;
+  --c-res-new-badge-text: #ffffff;
+
+  --c-res-app-rim: #ff7043;
+  --c-res-app-fill: rgba(255, 112, 67, 0.16);
+  --c-res-app-badge-bg: rgba(0, 151, 253, 0.1);
+  --c-res-app-badge-text: #0097fd;
+
+  --c-res-open-rim: #9a3412;
+  --c-res-open-fill: rgba(154, 52, 18, 0.16);
+  --c-res-open-badge-bg: #9a3412;
+  --c-res-open-badge-text: #ffffff;
+
+  --c-res-closed-rim: #78350f;
+  --c-res-closed-fill: rgba(120, 53, 15, 0.16);
+  --c-res-closed-badge-bg: rgba(120, 53, 15, 0.6);
+  --c-res-closed-badge-text: #e2cdb4;
+
+  --c-res-unknown-rim: #475569;
+  --c-res-unknown-fill: rgba(71, 85, 105, 0.24);
+  --c-res-unknown-badge-bg: #475569;
+  --c-res-unknown-badge-text: #f1f5f9;
+
+  --c-card-base: rgba(255, 255, 255, 0.02);
+}

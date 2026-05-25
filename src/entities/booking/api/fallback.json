@@ -1,0 +1,291 @@
+{
+  "available_days": ["2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23"],
+  "current_day": "2026-05-19",
+  "restaurant": {
+    "id": 1,
+    "timezone": "Asia/Vladivostok",
+    "restaurant_name": "Супра (демо)",
+    "opening_time": "11:00",
+    "closing_time": "23:40"
+  },
+  "tables": [
+    {
+      "id": "t-5",
+      "number": "5",
+      "zone": "1 Этаж",
+      "capacity": 2,
+      "orders": [
+        {
+          "id": "o-5-1",
+          "status": "New",
+          "start_time": "2026-05-19T13:00:00.000000+10:00",
+          "end_time": "2026-05-19T14:00:00.000000+10:00"
+        },
+        {
+          "id": "o-5-2",
+          "status": "Closed",
+          "start_time": "2026-05-19T14:30:00.000000+10:00",
+          "end_time": "2026-05-19T18:00:00.000000+10:00"
+        },
+        {
+          "id": "o-5-3",
+          "status": "Bill",
+          "start_time": "2026-05-19T15:15:00.000000+10:00",
+          "end_time": "2026-05-19T16:00:00.000000+10:00"
+        },
+        {
+          "id": "o-5-4",
+          "status": "Banquet",
+          "start_time": "2026-05-19T16:30:00.000000+10:00",
+          "end_time": "2026-05-19T17:45:00.000000+10:00"
+        }
+      ],
+      "reservations": []
+    },
+    {
+      "id": "t-6",
+      "number": "6",
+      "zone": "1 Этаж",
+      "capacity": 4,
+      "orders": [],
+      "reservations": [
+        {
+          "id": 101,
+          "name_for_reservation": "Алина",
+          "phone_number": "+79991234567",
+          "num_people": 4,
+          "status": "Заявка",
+          "seating_time": "2026-05-19T19:00:00.000000+10:00",
+          "end_time": "2026-05-19T21:00:00.000000+10:00"
+        },
+        {
+          "id": 102,
+          "name_for_reservation": "Иван",
+          "phone_number": "+79997654321",
+          "num_people": 3,
+          "status": "Новая",
+          "seating_time": "2026-05-20T12:00:00.000000+10:00",
+          "end_time": "2026-05-20T14:00:00.000000+10:00"
+        }
+      ]
+    },
+    {
+      "id": "t-7",
+      "number": "7",
+      "zone": "1 Этаж",
+      "capacity": 6,
+      "orders": [],
+      "reservations": [
+        {
+          "id": 103,
+          "name_for_reservation": "Дмитрий",
+          "phone_number": "+79990001122",
+          "num_people": 5,
+          "status": "Живая очередь",
+          "seating_time": "2026-05-19T18:30:00.000000+10:00",
+          "end_time": "2026-05-19T20:00:00.000000+10:00"
+        }
+      ]
+    },
+    {
+      "id": "t-21",
+      "number": "21",
+      "zone": "2 Этаж",
+      "capacity": 4,
+      "orders": [
+        {
+          "id": "o-21-1",
+          "status": "Bill",
+          "start_time": "2026-05-19T14:30:00.000000+10:00",
+          "end_time": "2026-05-19T16:00:00.000000+10:00"
+        },
+        {
+          "id": "o-21-2",
+          "status": "Closed",
+          "start_time": "2026-05-19T15:30:00.000000+10:00",
+          "end_time": "2026-05-19T17:00:00.000000+10:00"
+        }
+      ],
+      "reservations": [
+        {
+          "id": 23,
+          "name_for_reservation": "мк",
+          "phone_number": "+79990000023",
+          "num_people": 2,
+          "status": "Новая",
+          "seating_time": "2026-05-19T13:00:00.000000+10:00",
+          "end_time": "2026-05-19T14:00:00.000000+10:00"
+        },
+        {
+          "id": 24,
+          "name_for_reservation": "вячеслав",
+          "phone_number": "+79990000024",
+          "num_people": 4,
+          "status": "Заявка",
+          "seating_time": "2026-05-19T14:30:00.000000+10:00",
+          "end_time": "2026-05-19T16:30:00.000000+10:00"
+        }
+      ]
+    },
+    {
+      "id": "t-22",
+      "number": "22",
+      "zone": "2 Этаж",
+      "capacity": 2,
+      "orders": [
+        {
+          "id": "o-22-late",
+          "status": "Closed",
+          "start_time": "2026-05-19T21:45:00.000000+10:00",
+          "end_time": "2026-05-20T00:15:00.000000+10:00"
+        }
+      ],
+      "reservations": []
+    },
+    {
+      "id": "t-155",
+      "number": "155",
+      "zone": "2 Этаж",
+      "capacity": 4,
+      "orders": [],
+      "reservations": [
+        {
+          "id": 150,
+          "name_for_reservation": "Гость с битым end",
+          "phone_number": "+79991111111",
+          "num_people": 2,
+          "status": "Заявка",
+          "seating_time": "2026-05-19T15:00:00.000000+10:00",
+          "end_time": "2025-04-06T00:00:00.000000+10:00"
+        },
+        {
+          "id": 151,
+          "name_for_reservation": "Аня",
+          "phone_number": "+79992222222",
+          "num_people": 3,
+          "status": "Открыт",
+          "seating_time": "2026-05-19T17:00:00.000000+10:00",
+          "end_time": "2026-05-19T19:00:00.000000+10:00"
+        }
+      ]
+    },
+    {
+      "id": "t-191",
+      "number": "191",
+      "zone": "2 Этаж",
+      "capacity": 8,
+      "orders": [
+        {
+          "id": "o-191-a",
+          "status": "Closed",
+          "start_time": "2026-05-19T14:30:00.000000+10:00",
+          "end_time": "2026-05-19T15:30:00.000000+10:00"
+        },
+        {
+          "id": "o-191-b",
+          "status": "Closed",
+          "start_time": "2026-05-19T14:30:00.000000+10:00",
+          "end_time": "2026-05-19T15:30:00.000000+10:00"
+        },
+        {
+          "id": "o-191-c",
+          "status": "Bill",
+          "start_time": "2026-05-19T15:00:00.000000+10:00",
+          "end_time": "2026-05-19T16:00:00.000000+10:00"
+        },
+        {
+          "id": "o-191-d",
+          "status": "New",
+          "start_time": "2026-05-19T16:30:00.000000+10:00",
+          "end_time": "2026-05-19T18:00:00.000000+10:00"
+        },
+        {
+          "id": "o-191-e",
+          "status": "Closed",
+          "start_time": "2026-05-19T17:00:00.000000+10:00",
+          "end_time": "2026-05-19T19:00:00.000000+10:00"
+        }
+      ],
+      "reservations": [
+        {
+          "id": 200,
+          "name_for_reservation": "Сергей",
+          "phone_number": "+79993333333",
+          "num_people": 6,
+          "status": "Открыт",
+          "seating_time": "2026-05-19T14:45:00.000000+10:00",
+          "end_time": "2026-05-19T17:00:00.000000+10:00"
+        },
+        {
+          "id": 201,
+          "name_for_reservation": "Оля",
+          "phone_number": "+79994444444",
+          "num_people": 4,
+          "status": "Заявка",
+          "seating_time": "2026-05-19T18:30:00.000000+10:00",
+          "end_time": "2026-05-19T20:00:00.000000+10:00"
+        },
+        {
+          "id": 202,
+          "name_for_reservation": "тест-неизвестный",
+          "phone_number": "+79995555555",
+          "num_people": 2,
+          "status": "ВнезапныйСтатус",
+          "seating_time": "2026-05-19T20:30:00.000000+10:00",
+          "end_time": "2026-05-19T22:00:00.000000+10:00"
+        }
+      ]
+    },
+    {
+      "id": "t-401",
+      "number": "401",
+      "zone": "Банкетный зал",
+      "capacity": 0,
+      "orders": [
+        {
+          "id": "o-401-banquet",
+          "status": "Banquet",
+          "start_time": "2026-05-19T18:00:00.000000+10:00",
+          "end_time": "2026-05-19T23:45:00.000000+10:00"
+        }
+      ],
+      "reservations": []
+    },
+    {
+      "id": "t-402",
+      "number": "402",
+      "zone": "Банкетный зал",
+      "capacity": 10,
+      "orders": [],
+      "reservations": [
+        {
+          "id": 300,
+          "name_for_reservation": "Корпоратив",
+          "phone_number": "+79996666666",
+          "num_people": 10,
+          "status": "Занял место",
+          "seating_time": "2026-05-19T19:00:00.000000+10:00",
+          "end_time": "2026-05-19T23:00:00.000000+10:00"
+        }
+      ]
+    },
+    {
+      "id": "t-403",
+      "number": "403",
+      "zone": "Банкетный зал",
+      "capacity": 6,
+      "orders": [],
+      "reservations": [
+        {
+          "id": 301,
+          "name_for_reservation": "Юбилей",
+          "phone_number": "+79997777777",
+          "num_people": 6,
+          "status": "Отменен",
+          "seating_time": "2026-05-20T18:00:00.000000+10:00",
+          "end_time": "2026-05-20T22:00:00.000000+10:00"
+        }
+      ]
+    }
+  ]
+}
